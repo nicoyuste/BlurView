@@ -5,7 +5,7 @@ BlurView
 
 With this BlurView you can add the new iOS7 effect to whatever UIView with whatever content in it.
 
-It checks the device iOS version so you can use this class under iOS7 and it also checks the device is enough powerfull for making this kind of effect so it will not do this effect in iPhone4 and less.
+It checks the device iOS version so you can use this class under iOS6 or below and it also checks if the device is enough powerfull for making this kind of effect so it will not do it in iPhone4 and lower.
 
 ##Installation
 
