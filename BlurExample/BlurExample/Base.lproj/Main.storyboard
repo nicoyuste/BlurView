@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="NYViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UVn-Fb-vaW"/>
+                        <viewControllerLayoutGuide type="bottom" id="dYy-Xi-exU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="butterflyPhoto.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="84a-4V-Egr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1n6-9d-Df5">
+                                <rect key="frame" x="106" y="524" width="109" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CKz-rd-ll2"/>
+                                </constraints>
+                                <state key="normal" title="Add Blur">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addBlurButtonTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jCH-Gd-R1t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1n6-9d-Df5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="106" id="7Ep-ke-cJ1"/>
+                            <constraint firstAttribute="trailing" secondItem="84a-4V-Egr" secondAttribute="trailing" id="BQL-pm-Epg"/>
+                            <constraint firstItem="84a-4V-Egr" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="SsO-Tz-b69"/>
+                            <constraint firstItem="84a-4V-Egr" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="huu-up-trs"/>
+                            <constraint firstAttribute="trailing" secondItem="1n6-9d-Df5" secondAttribute="trailing" constant="105" id="jZC-UG-5be"/>
+                            <constraint firstAttribute="bottom" secondItem="84a-4V-Egr" secondAttribute="bottom" id="q0i-zc-gYd"/>
+                            <constraint firstItem="dYy-Xi-exU" firstAttribute="top" secondItem="1n6-9d-Df5" secondAttribute="bottom" constant="14" id="qDb-fc-w54"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addBlurBUtton" destination="1n6-9d-Df5" id="ctS-vQ-obd"/>
+                        <outlet property="backgroundImageView" destination="84a-4V-Egr" id="NAF-7Y-03x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="butterflyPhoto.jpg" width="1536" height="2048"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
