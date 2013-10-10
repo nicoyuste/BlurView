@@ -21,10 +21,11 @@
 		B2C903871806B04C00AD0ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C903691806B04C00AD0ADD /* UIKit.framework */; };
 		B2C9038F1806B04C00AD0ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2C9038D1806B04C00AD0ADD /* InfoPlist.strings */; };
 		B2C903911806B04C00AD0ADD /* BlurExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903901806B04C00AD0ADD /* BlurExampleTests.m */; };
-		B2C903A31806B0B900AD0ADD /* BLRView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C9039C1806B0B900AD0ADD /* BLRView.m */; };
-		B2C903A51806B0B900AD0ADD /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903A01806B0B900AD0ADD /* UIDevice+Hardware.m */; };
-		B2C903A61806B0B900AD0ADD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903A21806B0B900AD0ADD /* UIImage+ImageEffects.m */; };
 		B2C903A91806B1E600AD0ADD /* butterflyPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C903A81806B1E600AD0ADD /* butterflyPhoto.jpg */; };
+		B2C903B51806CE2100AD0ADD /* BLRView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903AE1806CE2100AD0ADD /* BLRView.m */; };
+		B2C903B61806CE2100AD0ADD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B2C903B01806CE2100AD0ADD /* README.md */; };
+		B2C903B71806CE2100AD0ADD /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903B21806CE2100AD0ADD /* UIDevice+Hardware.m */; };
+		B2C903B81806CE2100AD0ADD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +58,14 @@
 		B2C9038C1806B04C00AD0ADD /* BlurExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurExampleTests-Info.plist"; sourceTree = "<group>"; };
 		B2C9038E1806B04C00AD0ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2C903901806B04C00AD0ADD /* BlurExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurExampleTests.m; sourceTree = "<group>"; };
-		B2C9039B1806B0B900AD0ADD /* BLRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRView.h; sourceTree = "<group>"; };
-		B2C9039C1806B0B900AD0ADD /* BLRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRView.m; sourceTree = "<group>"; };
-		B2C9039F1806B0B900AD0ADD /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
-		B2C903A01806B0B900AD0ADD /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
-		B2C903A11806B0B900AD0ADD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		B2C903A21806B0B900AD0ADD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		B2C903A81806B1E600AD0ADD /* butterflyPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = butterflyPhoto.jpg; sourceTree = "<group>"; };
+		B2C903AD1806CE2100AD0ADD /* BLRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRView.h; sourceTree = "<group>"; };
+		B2C903AE1806CE2100AD0ADD /* BLRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRView.m; sourceTree = "<group>"; };
+		B2C903B01806CE2100AD0ADD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B2C903B11806CE2100AD0ADD /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		B2C903B21806CE2100AD0ADD /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		B2C903B31806CE2100AD0ADD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +95,7 @@
 		B2C903591806B04C00AD0ADD = {
 			isa = PBXGroup;
 			children = (
-				B2C9039A1806B0B900AD0ADD /* BlurView */,
+				B2C903AC1806CE2100AD0ADD /* BlurView */,
 				B2C9036B1806B04C00AD0ADD /* BlurExample */,
 				B2C9038A1806B04C00AD0ADD /* BlurExampleTests */,
 				B2C903641806B04C00AD0ADD /* Frameworks */,
@@ -165,27 +167,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B2C9039A1806B0B900AD0ADD /* BlurView */ = {
-			isa = PBXGroup;
-			children = (
-				B2C9039D1806B0B900AD0ADD /* UIDevice+Hardware */,
-				B2C9039B1806B0B900AD0ADD /* BLRView.h */,
-				B2C9039C1806B0B900AD0ADD /* BLRView.m */,
-				B2C903A11806B0B900AD0ADD /* UIImage+ImageEffects.h */,
-				B2C903A21806B0B900AD0ADD /* UIImage+ImageEffects.m */,
-			);
-			path = BlurView;
-			sourceTree = "<group>";
-		};
-		B2C9039D1806B0B900AD0ADD /* UIDevice+Hardware */ = {
-			isa = PBXGroup;
-			children = (
-				B2C9039F1806B0B900AD0ADD /* UIDevice+Hardware.h */,
-				B2C903A01806B0B900AD0ADD /* UIDevice+Hardware.m */,
-			);
-			path = "UIDevice+Hardware";
-			sourceTree = "<group>";
-		};
 		B2C903A71806B1E600AD0ADD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +174,29 @@
 			);
 			name = Resources;
 			path = BlurExample/Resources;
+			sourceTree = "<group>";
+		};
+		B2C903AC1806CE2100AD0ADD /* BlurView */ = {
+			isa = PBXGroup;
+			children = (
+				B2C903AD1806CE2100AD0ADD /* BLRView.h */,
+				B2C903AE1806CE2100AD0ADD /* BLRView.m */,
+				B2C903AF1806CE2100AD0ADD /* Device+Hardware */,
+				B2C903B31806CE2100AD0ADD /* UIImage+ImageEffects.h */,
+				B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */,
+			);
+			name = BlurView;
+			path = ../BlurView;
+			sourceTree = "<group>";
+		};
+		B2C903AF1806CE2100AD0ADD /* Device+Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				B2C903B01806CE2100AD0ADD /* README.md */,
+				B2C903B11806CE2100AD0ADD /* UIDevice+Hardware.h */,
+				B2C903B21806CE2100AD0ADD /* UIDevice+Hardware.m */,
+			);
+			path = "Device+Hardware";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +278,7 @@
 			files = (
 				B2C9037E1806B04C00AD0ADD /* Images.xcassets in Resources */,
 				B2C903A91806B1E600AD0ADD /* butterflyPhoto.jpg in Resources */,
+				B2C903B61806CE2100AD0ADD /* README.md in Resources */,
 				B2C903701806B04C00AD0ADD /* InfoPlist.strings in Resources */,
 				B2C903791806B04C00AD0ADD /* Main.storyboard in Resources */,
 			);
@@ -294,12 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C903A51806B0B900AD0ADD /* UIDevice+Hardware.m in Sources */,
+				B2C903B71806CE2100AD0ADD /* UIDevice+Hardware.m in Sources */,
 				B2C903721806B04C00AD0ADD /* main.m in Sources */,
-				B2C903A61806B0B900AD0ADD /* UIImage+ImageEffects.m in Sources */,
+				B2C903B81806CE2100AD0ADD /* UIImage+ImageEffects.m in Sources */,
 				B2C903761806B04C00AD0ADD /* NYAppDelegate.m in Sources */,
 				B2C9037C1806B04C00AD0ADD /* NYViewController.m in Sources */,
-				B2C903A31806B0B900AD0ADD /* BLRView.m in Sources */,
+				B2C903B51806CE2100AD0ADD /* BLRView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +515,7 @@
 				B2C903961806B04C00AD0ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2C903971806B04C00AD0ADD /* Build configuration list for PBXNativeTarget "BlurExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +524,7 @@
 				B2C903991806B04C00AD0ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

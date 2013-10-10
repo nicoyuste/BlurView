@@ -1,0 +1,3 @@
+[submodule "BlurView/Device+Hardware"]
+	path = BlurView/Device+Hardware
+	url = git@github.com:nicoyuste/UIDevice-Hardware.git
