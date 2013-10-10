@@ -51,7 +51,7 @@ dispatch_source_t CreateDispatchTimer(uint64_t interval, uint64_t leeway, dispat
     [self addSubview:imageView];
     self.backgroundImageView = imageView;
     
-    if(DEVICE_IOS_VERSION < 7 || DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
+    if(DEVICE_IOS_VERSION < 7 || !DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
         self.backgroundImageView.backgroundColor = [UIColor colorWithRed:245.f/255.f green:245.f/255.f blue:245.f/255.f alpha:1];
         self.backgroundImageView.alpha = 0.9;
     }
@@ -102,7 +102,7 @@ dispatch_source_t CreateDispatchTimer(uint64_t interval, uint64_t leeway, dispat
 #pragma mark - Public blur methods
 
 - (void) updateBlurView{
-    if(DEVICE_IOS_VERSION < 7 || DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
+    if(DEVICE_IOS_VERSION >= 7 || DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
         [self blurBackground];
     }
 }
@@ -112,7 +112,7 @@ dispatch_source_t CreateDispatchTimer(uint64_t interval, uint64_t leeway, dispat
         self.blurType = KStaticBlur;
         self.colorComponents = components;
     }
-    if(DEVICE_IOS_VERSION < 7 || DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
+    if(DEVICE_IOS_VERSION >= 7 || DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
         [self blurBackground];
     }
 }
@@ -120,7 +120,7 @@ dispatch_source_t CreateDispatchTimer(uint64_t interval, uint64_t leeway, dispat
     self.blurType = KLiveBlur;
     self.colorComponents = components;
     
-    if(DEVICE_IOS_VERSION < 7 || DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
+    if(DEVICE_IOS_VERSION >= 7 || DEVICE_HARDWARE_BETTER_THAN(IPHONE_4)){
         self.timer = CreateDispatchTimer(interval * NSEC_PER_SEC, 1ull * NSEC_PER_SEC, dispatch_get_main_queue(), ^{[self blurWithColor:components];});
     }
 }
