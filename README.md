@@ -12,8 +12,6 @@ It checks the device iOS version so you can use this class under iOS6 or below a
 Download the code and add `BLRView` and `UIImage+ImageEffects` to you code.
 You also will need the `UIDevice+Hardware` Category added to this repo as submodule.
 
-Other way is to add this repo as a submodule of yours which I recommend.
-
 ##Use
 
 - 1. Create de `BLRView` as a normal `UIView`.
