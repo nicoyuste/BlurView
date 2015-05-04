@@ -1,3 +1,3 @@
-[submodule "BlurView/Device+Hardware"]
-	path = BlurView/Device+Hardware
-	url = git@github.com:nicoyuste/UIDevice-Hardware.git
+[submodule "BlurView/SDiPhoneVersion"]
+	path = BlurView/SDiPhoneVersion
+	url = https://github.com/sebyddd/SDiPhoneVersion.git

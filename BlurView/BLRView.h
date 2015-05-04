@@ -32,7 +32,6 @@ typedef enum {
     KLiveBlur = 2
 } BlurType;
 
-#import "UIDevice+Hardware.h"
 
 @class BLRColorComponents;
 

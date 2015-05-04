@@ -23,9 +23,8 @@
 		B2C903911806B04C00AD0ADD /* BlurExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903901806B04C00AD0ADD /* BlurExampleTests.m */; };
 		B2C903A91806B1E600AD0ADD /* butterflyPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C903A81806B1E600AD0ADD /* butterflyPhoto.jpg */; };
 		B2C903B51806CE2100AD0ADD /* BLRView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903AE1806CE2100AD0ADD /* BLRView.m */; };
-		B2C903B61806CE2100AD0ADD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B2C903B01806CE2100AD0ADD /* README.md */; };
-		B2C903B71806CE2100AD0ADD /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903B21806CE2100AD0ADD /* UIDevice+Hardware.m */; };
 		B2C903B81806CE2100AD0ADD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */; };
+		D1AB146B1AF6FA5C00F05E22 /* SDiPhoneVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AB146A1AF6FA5C00F05E22 /* SDiPhoneVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +60,10 @@
 		B2C903A81806B1E600AD0ADD /* butterflyPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = butterflyPhoto.jpg; sourceTree = "<group>"; };
 		B2C903AD1806CE2100AD0ADD /* BLRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRView.h; sourceTree = "<group>"; };
 		B2C903AE1806CE2100AD0ADD /* BLRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRView.m; sourceTree = "<group>"; };
-		B2C903B01806CE2100AD0ADD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		B2C903B11806CE2100AD0ADD /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
-		B2C903B21806CE2100AD0ADD /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
 		B2C903B31806CE2100AD0ADD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		D1AB14691AF6FA5C00F05E22 /* SDiPhoneVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDiPhoneVersion.h; path = SDiPhoneVersion/SDiPhoneVersion/SDiPhoneVersion.h; sourceTree = "<group>"; };
+		D1AB146A1AF6FA5C00F05E22 /* SDiPhoneVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDiPhoneVersion.m; path = SDiPhoneVersion/SDiPhoneVersion/SDiPhoneVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,9 +177,9 @@
 		B2C903AC1806CE2100AD0ADD /* BlurView */ = {
 			isa = PBXGroup;
 			children = (
+				D1AB146C1AF6FA6800F05E22 /* SDIphoneVersion */,
 				B2C903AD1806CE2100AD0ADD /* BLRView.h */,
 				B2C903AE1806CE2100AD0ADD /* BLRView.m */,
-				B2C903AF1806CE2100AD0ADD /* Device+Hardware */,
 				B2C903B31806CE2100AD0ADD /* UIImage+ImageEffects.h */,
 				B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */,
 			);
@@ -189,14 +187,13 @@
 			path = ../BlurView;
 			sourceTree = "<group>";
 		};
-		B2C903AF1806CE2100AD0ADD /* Device+Hardware */ = {
+		D1AB146C1AF6FA6800F05E22 /* SDIphoneVersion */ = {
 			isa = PBXGroup;
 			children = (
-				B2C903B01806CE2100AD0ADD /* README.md */,
-				B2C903B11806CE2100AD0ADD /* UIDevice+Hardware.h */,
-				B2C903B21806CE2100AD0ADD /* UIDevice+Hardware.m */,
+				D1AB14691AF6FA5C00F05E22 /* SDiPhoneVersion.h */,
+				D1AB146A1AF6FA5C00F05E22 /* SDiPhoneVersion.m */,
 			);
-			path = "Device+Hardware";
+			name = SDIphoneVersion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +275,6 @@
 			files = (
 				B2C9037E1806B04C00AD0ADD /* Images.xcassets in Resources */,
 				B2C903A91806B1E600AD0ADD /* butterflyPhoto.jpg in Resources */,
-				B2C903B61806CE2100AD0ADD /* README.md in Resources */,
 				B2C903701806B04C00AD0ADD /* InfoPlist.strings in Resources */,
 				B2C903791806B04C00AD0ADD /* Main.storyboard in Resources */,
 			);
@@ -299,9 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C903B71806CE2100AD0ADD /* UIDevice+Hardware.m in Sources */,
 				B2C903721806B04C00AD0ADD /* main.m in Sources */,
 				B2C903B81806CE2100AD0ADD /* UIImage+ImageEffects.m in Sources */,
+				D1AB146B1AF6FA5C00F05E22 /* SDiPhoneVersion.m in Sources */,
 				B2C903761806B04C00AD0ADD /* NYAppDelegate.m in Sources */,
 				B2C9037C1806B04C00AD0ADD /* NYViewController.m in Sources */,
 				B2C903B51806CE2100AD0ADD /* BLRView.m in Sources */,
