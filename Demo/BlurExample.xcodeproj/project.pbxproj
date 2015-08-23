@@ -16,28 +16,13 @@
 		B2C903791806B04C00AD0ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2C903771806B04C00AD0ADD /* Main.storyboard */; };
 		B2C9037C1806B04C00AD0ADD /* NYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C9037B1806B04C00AD0ADD /* NYViewController.m */; };
 		B2C9037E1806B04C00AD0ADD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2C9037D1806B04C00AD0ADD /* Images.xcassets */; };
-		B2C903851806B04C00AD0ADD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C903841806B04C00AD0ADD /* XCTest.framework */; };
-		B2C903861806B04C00AD0ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C903651806B04C00AD0ADD /* Foundation.framework */; };
-		B2C903871806B04C00AD0ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C903691806B04C00AD0ADD /* UIKit.framework */; };
-		B2C9038F1806B04C00AD0ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2C9038D1806B04C00AD0ADD /* InfoPlist.strings */; };
-		B2C903911806B04C00AD0ADD /* BlurExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903901806B04C00AD0ADD /* BlurExampleTests.m */; };
 		B2C903A91806B1E600AD0ADD /* butterflyPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B2C903A81806B1E600AD0ADD /* butterflyPhoto.jpg */; };
-		B2C903B51806CE2100AD0ADD /* BLRView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903AE1806CE2100AD0ADD /* BLRView.m */; };
-		B2C903B81806CE2100AD0ADD /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */; };
-		D1AB146B1AF6FA5C00F05E22 /* SDiPhoneVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AB146A1AF6FA5C00F05E22 /* SDiPhoneVersion.m */; };
+		B337BAC01134E5FCB70D5D86 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 687207C17AA5BF45EB74321E /* libPods.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B2C903881806B04C00AD0ADD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B2C9035A1806B04C00AD0ADD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2C903611806B04C00AD0ADD;
-			remoteInfo = BlurExample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		687207C17AA5BF45EB74321E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB481E35B283CAB00657B42 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B2C903621806B04C00AD0ADD /* BlurExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C903651806B04C00AD0ADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B2C903671806B04C00AD0ADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,18 +37,9 @@
 		B2C9037A1806B04C00AD0ADD /* NYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYViewController.h; sourceTree = "<group>"; };
 		B2C9037B1806B04C00AD0ADD /* NYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYViewController.m; sourceTree = "<group>"; };
 		B2C9037D1806B04C00AD0ADD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B2C903831806B04C00AD0ADD /* BlurExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C903841806B04C00AD0ADD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B2C9038C1806B04C00AD0ADD /* BlurExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurExampleTests-Info.plist"; sourceTree = "<group>"; };
-		B2C9038E1806B04C00AD0ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B2C903901806B04C00AD0ADD /* BlurExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurExampleTests.m; sourceTree = "<group>"; };
 		B2C903A81806B1E600AD0ADD /* butterflyPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = butterflyPhoto.jpg; sourceTree = "<group>"; };
-		B2C903AD1806CE2100AD0ADD /* BLRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRView.h; sourceTree = "<group>"; };
-		B2C903AE1806CE2100AD0ADD /* BLRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRView.m; sourceTree = "<group>"; };
-		B2C903B31806CE2100AD0ADD /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		D1AB14691AF6FA5C00F05E22 /* SDiPhoneVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDiPhoneVersion.h; path = SDiPhoneVersion/SDiPhoneVersion/SDiPhoneVersion.h; sourceTree = "<group>"; };
-		D1AB146A1AF6FA5C00F05E22 /* SDiPhoneVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDiPhoneVersion.m; path = SDiPhoneVersion/SDiPhoneVersion/SDiPhoneVersion.m; sourceTree = "<group>"; };
+		B52CB87B7C3E67B1F63841F0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,31 +50,30 @@
 				B2C903681806B04C00AD0ADD /* CoreGraphics.framework in Frameworks */,
 				B2C9036A1806B04C00AD0ADD /* UIKit.framework in Frameworks */,
 				B2C903661806B04C00AD0ADD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2C903801806B04C00AD0ADD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2C903851806B04C00AD0ADD /* XCTest.framework in Frameworks */,
-				B2C903871806B04C00AD0ADD /* UIKit.framework in Frameworks */,
-				B2C903861806B04C00AD0ADD /* Foundation.framework in Frameworks */,
+				B337BAC01134E5FCB70D5D86 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87C950CEDB796636BFAC97F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B52CB87B7C3E67B1F63841F0 /* Pods.debug.xcconfig */,
+				6AB481E35B283CAB00657B42 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B2C903591806B04C00AD0ADD = {
 			isa = PBXGroup;
 			children = (
-				B2C903AC1806CE2100AD0ADD /* BlurView */,
 				B2C9036B1806B04C00AD0ADD /* BlurExample */,
-				B2C9038A1806B04C00AD0ADD /* BlurExampleTests */,
 				B2C903641806B04C00AD0ADD /* Frameworks */,
 				B2C903631806B04C00AD0ADD /* Products */,
 				B2C903A71806B1E600AD0ADD /* Resources */,
+				87C950CEDB796636BFAC97F1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				B2C903621806B04C00AD0ADD /* BlurExample.app */,
-				B2C903831806B04C00AD0ADD /* BlurExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +92,7 @@
 				B2C903671806B04C00AD0ADD /* CoreGraphics.framework */,
 				B2C903691806B04C00AD0ADD /* UIKit.framework */,
 				B2C903841806B04C00AD0ADD /* XCTest.framework */,
+				687207C17AA5BF45EB74321E /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,24 +122,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B2C9038A1806B04C00AD0ADD /* BlurExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				B2C903901806B04C00AD0ADD /* BlurExampleTests.m */,
-				B2C9038B1806B04C00AD0ADD /* Supporting Files */,
-			);
-			path = BlurExampleTests;
-			sourceTree = "<group>";
-		};
-		B2C9038B1806B04C00AD0ADD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B2C9038C1806B04C00AD0ADD /* BlurExampleTests-Info.plist */,
-				B2C9038D1806B04C00AD0ADD /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		B2C903A71806B1E600AD0ADD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,28 +131,6 @@
 			path = BlurExample/Resources;
 			sourceTree = "<group>";
 		};
-		B2C903AC1806CE2100AD0ADD /* BlurView */ = {
-			isa = PBXGroup;
-			children = (
-				D1AB146C1AF6FA6800F05E22 /* SDIphoneVersion */,
-				B2C903AD1806CE2100AD0ADD /* BLRView.h */,
-				B2C903AE1806CE2100AD0ADD /* BLRView.m */,
-				B2C903B31806CE2100AD0ADD /* UIImage+ImageEffects.h */,
-				B2C903B41806CE2100AD0ADD /* UIImage+ImageEffects.m */,
-			);
-			name = BlurView;
-			path = ../BlurView;
-			sourceTree = "<group>";
-		};
-		D1AB146C1AF6FA6800F05E22 /* SDIphoneVersion */ = {
-			isa = PBXGroup;
-			children = (
-				D1AB14691AF6FA5C00F05E22 /* SDiPhoneVersion.h */,
-				D1AB146A1AF6FA5C00F05E22 /* SDiPhoneVersion.m */,
-			);
-			name = SDIphoneVersion;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2C903941806B04C00AD0ADD /* Build configuration list for PBXNativeTarget "BlurExample" */;
 			buildPhases = (
+				277607E3572A2ED562E28668 /* Check Pods Manifest.lock */,
 				B2C9035E1806B04C00AD0ADD /* Sources */,
 				B2C9035F1806B04C00AD0ADD /* Frameworks */,
 				B2C903601806B04C00AD0ADD /* Resources */,
+				BCE99F91AF3FEF5B0B27398D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,24 +153,6 @@
 			productReference = B2C903621806B04C00AD0ADD /* BlurExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B2C903821806B04C00AD0ADD /* BlurExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B2C903971806B04C00AD0ADD /* Build configuration list for PBXNativeTarget "BlurExampleTests" */;
-			buildPhases = (
-				B2C9037F1806B04C00AD0ADD /* Sources */,
-				B2C903801806B04C00AD0ADD /* Frameworks */,
-				B2C903811806B04C00AD0ADD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2C903891806B04C00AD0ADD /* PBXTargetDependency */,
-			);
-			name = BlurExampleTests;
-			productName = BlurExampleTests;
-			productReference = B2C903831806B04C00AD0ADD /* BlurExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -241,13 +160,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NY;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Nicolas Yuste Tirados";
-				TargetAttributes = {
-					B2C903821806B04C00AD0ADD = {
-						TestTargetID = B2C903611806B04C00AD0ADD;
-					};
-				};
 			};
 			buildConfigurationList = B2C9035D1806B04C00AD0ADD /* Build configuration list for PBXProject "BlurExample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -263,7 +177,6 @@
 			projectRoot = "";
 			targets = (
 				B2C903611806B04C00AD0ADD /* BlurExample */,
-				B2C903821806B04C00AD0ADD /* BlurExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -280,15 +193,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2C903811806B04C00AD0ADD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		277607E3572A2ED562E28668 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2C9038F1806B04C00AD0ADD /* InfoPlist.strings in Resources */,
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		BCE99F91AF3FEF5B0B27398D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B2C9035E1806B04C00AD0ADD /* Sources */ = {
@@ -296,31 +234,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C903721806B04C00AD0ADD /* main.m in Sources */,
-				B2C903B81806CE2100AD0ADD /* UIImage+ImageEffects.m in Sources */,
-				D1AB146B1AF6FA5C00F05E22 /* SDiPhoneVersion.m in Sources */,
 				B2C903761806B04C00AD0ADD /* NYAppDelegate.m in Sources */,
 				B2C9037C1806B04C00AD0ADD /* NYViewController.m in Sources */,
-				B2C903B51806CE2100AD0ADD /* BLRView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2C9037F1806B04C00AD0ADD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2C903911806B04C00AD0ADD /* BlurExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B2C903891806B04C00AD0ADD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B2C903611806B04C00AD0ADD /* BlurExample */;
-			targetProxy = B2C903881806B04C00AD0ADD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B2C9036E1806B04C00AD0ADD /* InfoPlist.strings */ = {
@@ -339,14 +258,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B2C9038D1806B04C00AD0ADD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2C9038E1806B04C00AD0ADD /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -354,7 +265,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -393,7 +303,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -424,6 +333,7 @@
 		};
 		B2C903951806B04C00AD0ADD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52CB87B7C3E67B1F63841F0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -438,6 +348,7 @@
 		};
 		B2C903961806B04C00AD0ADD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB481E35B283CAB00657B42 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -447,48 +358,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		B2C903981806B04C00AD0ADD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurExample.app/BlurExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlurExample/BlurExample-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BlurExampleTests/BlurExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		B2C903991806B04C00AD0ADD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurExample.app/BlurExample";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BlurExample/BlurExample-Prefix.pch";
-				INFOPLIST_FILE = "BlurExampleTests/BlurExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -509,15 +378,6 @@
 			buildConfigurations = (
 				B2C903951806B04C00AD0ADD /* Debug */,
 				B2C903961806B04C00AD0ADD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B2C903971806B04C00AD0ADD /* Build configuration list for PBXNativeTarget "BlurExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B2C903981806B04C00AD0ADD /* Debug */,
-				B2C903991806B04C00AD0ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

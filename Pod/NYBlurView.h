@@ -37,7 +37,7 @@ typedef enum {
 
 /// A UIView subclass that supports live real time and static blurs. See https://github.com/justinmfischer/7blur
 ///
-@interface BLRView : UIView
+@interface NYBlurView : UIView
 
 
 - (id) initWithFrame:(CGRect)frame parent:(UIView *) parentView withSnapshotFrame:(CGRect) snapShotFrame;

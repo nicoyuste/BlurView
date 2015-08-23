@@ -4,14 +4,14 @@
 //
 //  Created by Nicolas Yuste Tirados on 10/10/13.
 //  Copyright (c) 2013 Nicolas Yuste Tirados. All rights reserved.
-//
+
 
 #import "NYViewController.h"
-#import "BLRView.h"
+#import "NYBlurView.h"
 
 @interface NYViewController ()
 
-@property (nonatomic, retain) BLRView *blurView;
+@property (nonatomic, retain) NYBlurView *blurView;
 
 @end
 
@@ -27,8 +27,8 @@
 
 - (void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    
-    BLRView *blurView = [[BLRView alloc] initWithFrame:self.view.frame parent:self.backgroundImageView withSnapshotFrame:self.backgroundImageView.bounds];
+
+    NYBlurView *blurView = [[NYBlurView alloc] initWithFrame:self.view.frame parent:self.backgroundImageView withSnapshotFrame:self.backgroundImageView.bounds];
     blurView.hidden = YES;
     [blurView blurWithColor:[BLRColorComponents lightEffect]];
     [self.view insertSubview:blurView belowSubview:self.addBlurBUtton];

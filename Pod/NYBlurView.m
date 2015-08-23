@@ -26,11 +26,11 @@
 //
 //  Modified by NICOLAS YUSTE on 10/19/13
 
-#import "BLRView.h"
+#import "NYBlurView.h"
 #import "UIImage+ImageEffects.h"
 #import "SDiPhoneVersion.h"
 
-@interface BLRView ()
+@interface NYBlurView ()
 
 @property(nonatomic, weak) UIView *parent;
 @property(nonatomic, assign) CGPoint location;
@@ -43,7 +43,7 @@ dispatch_source_t CreateDispatchTimer(uint64_t interval, uint64_t leeway, dispat
 
 @end
 
-@implementation BLRView
+@implementation NYBlurView
 
 #pragma mark - Inits
 

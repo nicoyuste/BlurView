@@ -1,0 +1,27 @@
+{
+  "name": "NYBlurView",
+  "module_name": "NYBlurView",
+  "version": "1.2.0",
+  "summary": "Create easy Blur effects.",
+  "homepage": "https://github.com/nicoyuste/BlurView",
+  "description": "Use this NYBlurView to create lur effects in any UIView. It also handles devices that ar not supported. If that is the case it makes an alpha out of the original view",
+  "license": "MIT",
+  "authors": {
+    "Nicolas Yuste": "info@nicoyuste.es"
+  },
+  "source": {
+    "git": "https://github.com/nicoyuste/BlurView.git",
+    "tag": "1.2.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "public_header_files": "Pod/*.h",
+  "source_files": "Pod/*",
+  "dependencies": {
+    "SDVersion": [
+
+    ]
+  }
+}
