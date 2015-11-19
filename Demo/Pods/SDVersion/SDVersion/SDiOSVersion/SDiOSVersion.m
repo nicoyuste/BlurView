@@ -1,13 +1,13 @@
 //
-//  SDiPhoneVersion.m
+//  SDiOSVersion.m
 //  SDVersion
 //
-//  Copyright (c) 2014 Sebastian Dobrincu. All rights reserved.
+//  Copyright (c) 2015 Sebastian Dobrincu. All rights reserved.
 //
 
-#import "SDiPhoneVersion.h"
+#import "SDiOSVersion.h"
 
-@implementation SDiPhoneVersion
+@implementation SDiOSVersion
 
 +(NSDictionary*)deviceNamesByCode {
     
@@ -30,6 +30,8 @@
                               @"iPhone6,2" :[NSNumber numberWithInteger:iPhone5S],
                               @"iPhone7,2" :[NSNumber numberWithInteger:iPhone6],
                               @"iPhone7,1" :[NSNumber numberWithInteger:iPhone6Plus],
+                              @"iPhone8,1" :[NSNumber numberWithInteger:iPhone6S],
+                              @"iPhone8,2" :[NSNumber numberWithInteger:iPhone6SPlus],
                               @"i386"      :[NSNumber numberWithInteger:Simulator],
                               @"x86_64"    :[NSNumber numberWithInteger:Simulator],
                               
@@ -58,9 +60,19 @@
                               @"iPad4,7" :[NSNumber numberWithInteger:iPadMini3],
                               @"iPad4,8" :[NSNumber numberWithInteger:iPadMini3],
                               @"iPad4,9" :[NSNumber numberWithInteger:iPadMini3],
+                              @"iPad5,1" :[NSNumber numberWithInteger:iPadMini4],
+                              @"iPad5,2" :[NSNumber numberWithInteger:iPadMini4],
                               @"iPad5,3" :[NSNumber numberWithInteger:iPadAir2],
                               @"iPad5,4" :[NSNumber numberWithInteger:iPadAir2],
+                              @"iPad6,8" :[NSNumber numberWithInteger:iPadPro],
                               
+                              //iPods
+                              @"iPod1,1" :[NSNumber numberWithInteger:iPodTouch1Gen],
+                              @"iPod2,1" :[NSNumber numberWithInteger:iPodTouch2Gen],
+                              @"iPod3,1" :[NSNumber numberWithInteger:iPodTouch3Gen],
+                              @"iPod4,1" :[NSNumber numberWithInteger:iPodTouch4Gen],
+                              @"iPod5,1" :[NSNumber numberWithInteger:iPodTouch5Gen],
+                              @"iPod7,1" :[NSNumber numberWithInteger:iPodTouch6Gen]
                               
                               };
     });
@@ -83,26 +95,20 @@
     
     CGFloat screenHeight = 0;
     
-    if (iOSVersionGreaterThan(@"8")) {
-        
-        UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
-        if (orientation ==  UIDeviceOrientationPortrait)
-            screenHeight = [[UIScreen mainScreen] bounds].size.height;
-        else if((orientation == UIDeviceOrientationLandscapeRight) || (orientation == UIInterfaceOrientationLandscapeLeft))
-            screenHeight = [[UIScreen mainScreen] bounds].size.width;
-        
+    if (iOSVersionGreaterThanOrEqualTo(@"8")) {
+        screenHeight = MAX([[UIScreen mainScreen] bounds].size.height, [[UIScreen mainScreen] bounds].size.width);
     }else
         screenHeight = [[UIScreen mainScreen] bounds].size.height;
     
     if (screenHeight == 480)
-        return iPhone3Dot5inch;
+        return Screen3Dot5inch;
     else if(screenHeight == 568)
-        return iPhone4inch;
+        return Screen4inch;
     else if(screenHeight == 667){
-        if ([UIScreen mainScreen].scale > 2.9) return iPhone5Dot5inch;
-        return  iPhone4Dot7inch;
+        if ([UIScreen mainScreen].scale > 2.9) return Screen5Dot5inch;
+        return  Screen4Dot7inch;
     }else if(screenHeight == 736)
-        return iPhone5Dot5inch;
+        return Screen5Dot5inch;
     else
         return UnknownSize;
 }
@@ -119,4 +125,3 @@
 }
 
 @end
-

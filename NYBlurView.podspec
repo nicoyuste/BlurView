@@ -7,7 +7,7 @@
 Pod::Spec.new do |s|
 	s.name             = 'NYBlurView'
 	s.module_name      = 'NYBlurView'
-	s.version          = '1.2.0'
+	s.version          = '1.2.1'
 	s.summary          = 'Create easy Blur effects.'
 	s.homepage         = 'https://github.com/nicoyuste/BlurView'
 	s.description	   = 'Use this NYBlurView to create blur effects in any UIView.'
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
 
 	s.public_header_files = 'Pod/*.h'
 	s.source_files = 'Pod/*'
-	s.dependency 'SDVersion'
+	s.dependency 'SDVersion', '2.5.2'
 
 end

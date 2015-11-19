@@ -1,7 +1,7 @@
 PODS:
   - NYBlurView (1.2.0):
-    - SDVersion
-  - SDVersion (2.1.4)
+    - SDVersion (= 2.5.2)
+  - SDVersion (2.5.2)
 
 DEPENDENCIES:
   - NYBlurView (from `../`)
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NYBlurView: 8c48f96d410cfae02eb66598945d3cca750efa8e
-  SDVersion: 628322d6c03d3c3f06f523d93066076ffaf750b3
+  NYBlurView: 9b69767018dc5e14c1cfe71c77fc0ae9dfd16272
+  SDVersion: 52f2641db3a580616936b0ce66f4769706570654
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

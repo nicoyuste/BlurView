@@ -10,8 +10,8 @@
              alt="Platform">
     </a>
     <a href="http://sebastiandobrincu.com">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg"
-             alt="License MIT">
+        <img src="http://img.shields.io/cocoapods/v/SDVersion.svg"
+             alt="Cocoapods Version">
     </a>
 </p>
 
@@ -28,15 +28,15 @@ SDVersion supports both iOS and Mac OS. Browse through the implementation of eac
 ```objective-c
 
       // Check for device model
-      if ([SDVersion deviceVersion] == iPhone6)
-           NSLog(@"You got the iPhone 6. Sweet 🍭!");
+      if ([SDVersion deviceVersion] == iPhone6S)
+           NSLog(@"You got the iPhone 6S. Sweet 🍭!");
       else if ([SDVersion deviceVersion] == iPhone6Plus)
            NSLog(@"iPhone 6 Plus? Bigger is better!");
-      else if ([SDVersion deviceVersion] == iPadAir2)
-      	   NSLog(@"You own an iPad Air 2 🌀!");
+      else if ([SDVersion deviceVersion] == iPadPro)
+      	   NSLog(@"You own an iPad Pro 🌀!");
 
       // Check for device screen size
-      if ([SDVersion deviceSize] == iPhone4inch)
+      if ([SDVersion deviceSize] == Screen4inch)
            NSLog(@"Your screen is 4 inches");
       
       // Get device name
@@ -85,6 +85,8 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
     iPhone5S
     iPhone6
     iPhone6Plus
+    iPhone6S
+    iPhone6SPlus
     
     iPad1
     iPad2
@@ -95,14 +97,23 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
     iPadMini2
     iPadAir2
     iPadMini3
-    
+    iPadMini4
+    iPadPro
+
+	iPodTouch1Gen
+    iPodTouch2Gen
+    iPodTouch3Gen
+    iPodTouch4Gen
+    iPodTouch5Gen
+    iPodTouch6Gen
+
     Simulator
 
 ### Targetable screen sizes
-    iPhone3Dot5inch
-    iPhone4inch
-    iPhone4Dot7inch
-    iPhone5Dot5inch
+    Screen3Dot5inch
+    Screen4inch
+    Screen4Dot7inch
+    Screen5Dot5inch
 
 ### Available iOS Version Finder methods
     iOSVersionEqualTo(@"v")  //E.g: iOSVersionEqualTo(@"8.4.1")
